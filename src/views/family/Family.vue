@@ -15,11 +15,16 @@
     data(){
       return {
         families:[
-          {id:1,name:'abde',discrpt:'father of family'}, 
-          {id:2,name:'Meryem',discrpt:'mother of family'},
-          {id:3,name:'loujaine',discrpt:'child of family'}
+         {id:1,name:"abde",discrpt:"father of family"}, 
+          {id:2,name:"Meryem",discrpt:"mother of family"},
+          {id:3,name:"loujaine",discrpt:"child of family"}
           ]
       }
+    },
+    mounted(){
+      //fetch('url').then(res =>res.json()).then(data=>{
+        //this.families=data
+      })
     }
   }
 </script>
@@ -31,3 +36,7 @@
     padding: 10px;
   }
 </style>
+<!-- 
+ npm install json-server
+json-server --watch data/db.json
+-->

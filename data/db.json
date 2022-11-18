@@ -1,0 +1,7 @@
+{
+  "families":[
+          {"id":1,"name":"abde","discrpt":"father of family"}, 
+          {"id":2,"name":"Meryem","discrpt":"mother of family"},
+          {"id":3,"name":"loujaine","discrpt":"child of family"}
+    ]
+}

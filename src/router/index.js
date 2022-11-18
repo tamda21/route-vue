@@ -24,7 +24,8 @@ const routes = [
   {
     path:'/family/:id',
     name:'FamilyInfo',
-    component:FamilyInfo
+    component:FamilyInfo,
+    props:true
   },
   //redirect 
   {
